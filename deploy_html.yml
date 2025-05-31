@@ -1,0 +1,15 @@
+- name: Deploy custom index.html to respective machines
+  hosts: all
+  become: true
+  tasks:
+    - name: Copy correct index file
+      copy:
+        src: "index-{{ inventory_hostname.split('-')[0] }}.html"
+        dest: /var/www/html/index.html
+        mode: '0644'
+
+    - name: Restart Nginx
+      service:
+        name: nginx
+        state: restarted
+

@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Pull HTML files') {
             steps {
-                git 'https://github.com/subelgao/capstone-smb.git'
+                git 'git@github.com:subelgao/capstone-smb.git'
             }
         }
         stage('Deploy to AWS & Azure') {

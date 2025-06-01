@@ -9,3 +9,4 @@ This approach aims to achieve:
 •	Continuous service availability during cloud outages.
 •	Minimized downtime and seamless user experience.
 •	Fully automated, infrastructure-as-code disaster recovery mechanisms.
+![CapstoneProject](https://github.com/user-attachments/assets/8f605c72-c305-4ceb-a0f3-d0001acba9d7)

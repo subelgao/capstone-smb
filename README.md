@@ -13,7 +13,7 @@ This project addresses the challenge of ensuring **high availability** and **dis
 - **Terraform** – for infrastructure provisioning  
 - **Ansible** – for configuration management  
 - **Jenkins** – for CI/CD automation  
-- **AWS Route 53** – for DNS-based health checks and traffic failover
+- **AWS Route 53** – for DNS-based health checks and traffic failover (Here we have used nginx reverse proxy and ngrok tool for free domain)
 
 ## Objectives
 

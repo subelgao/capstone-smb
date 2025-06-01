@@ -1,6 +1,6 @@
 # capstone-smb
 
-# Multi-Cloud Disaster Recovery and High Availability Using AWS and Azure
+# Multi-Cloud High Availability Using AWS and Azure
 
 ## Overview
 
